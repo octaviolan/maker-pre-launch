@@ -1,0 +1,25 @@
+@import './fonts.css';
+@import './icons.css';
+
+:root {
+  /* Colors */
+  --white: #FFFFFF;
+  --bg-color: #080C20;
+  --error-message: #FF2965;
+  --aqua: #3EE9E5;
+  --steel-blue: #093f68;
+  --grey: #777f98;
+  /* Font-Family */
+  --basefontFamily: Manrope, Helvetica, sans-serif;
+  --headline: bold 48px/56px var(--basefontFamily);
+  --prices: bold 40px/55px var(--basefontFamily);
+  --headline2: bold 32px/44px var(--basefontFamily);
+  --headline3: bold 18px/25px var(--basefontFamily);
+  --basefont: normal 15px/25px var(--basefontFamily);
+}
+
+body {
+  font: var(--basefont);
+  background-color: var(--bg-color);
+  color: var(--grey);
+}
