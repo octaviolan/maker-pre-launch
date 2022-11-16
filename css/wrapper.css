@@ -1,5 +1,6 @@
 .wrapper {
   max-width: 1024px;
+  margin: 0 auto;
   padding-left: 16.5px;
   padding-right: 16.5px;
 }

@@ -1,5 +1,6 @@
 .hero {
   text-align: center;
+  margin-bottom: 144px;
 }
 
 .hero-img {
@@ -26,4 +27,8 @@
 .hero-description {
   margin-top: 23px;
   margin-bottom: 32px;
+}
+
+.hero-content img {
+  vertical-align: middle;
 }

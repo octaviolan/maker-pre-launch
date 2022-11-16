@@ -3,6 +3,7 @@
 @import './wrapper.css';
 @import './header.css';
 @import './hero.css';
+@import './description.css';
 
 :root {
   /* Colors */
