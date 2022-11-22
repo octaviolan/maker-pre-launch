@@ -13,7 +13,8 @@
 .hero h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font: var(--headline2);
+  font: var(--headline3);
+  line-height: 40px ;
   color: var(--white);
   text-align: center;
   width: 250px;

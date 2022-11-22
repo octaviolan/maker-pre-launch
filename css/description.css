@@ -46,8 +46,8 @@
 }
 
 
-.description-info h3 {
-  font: var(--headline3);
+.description-info h4 {
+  font: var(--headline4);
   color: var(--white);
   margin-top: 0;
   margin-bottom: 11px;
