@@ -56,3 +56,25 @@
 .description-info p {
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .description-content {
+    gap: 40px;
+    width: 573px;
+    margin: 0 auto;
+  }
+
+  .description-item {
+    flex-direction: row;
+    gap: 55px;
+  }
+
+  .description-item:nth-child(odd) {
+    justify-content: flex-end;
+  }
+
+  .description-info {
+    text-align: start;
+    width: 340px;
+  }
+}
