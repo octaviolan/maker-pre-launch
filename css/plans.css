@@ -122,4 +122,25 @@
   color: var(--grey);
 }
 
+@media screen and (min-width: 768px) {
+  .pricing-header {
+    width: 573px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pricing-body {
+    width: 445px;
+    margin: 0 auto;
+  }
+
+  .plans-free {
+    padding: 48px 38px;
+  }
+
+  .plans-month {
+    padding: 60px 38px;
+  }
+}
+
 
