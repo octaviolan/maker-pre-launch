@@ -10,3 +10,14 @@ header {
 .logo-img img {
   vertical-align: middle;
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    margin-top: 48px;
+    margin-bottom: 77px;
+  }
+
+  .logo-img {
+    text-align: start;
+  }
+}

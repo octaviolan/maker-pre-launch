@@ -21,15 +21,44 @@
   margin: 0 auto;
 }
 
+.hero p {
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
 .hero h1 span {
   color: var(--aqua);
 }
 
-.hero-description {
+/* .hero-description {
   margin-top: 23px;
   margin-bottom: 32px;
-}
+} */
 
 .hero-content img {
   vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    /* height: 357px; */
+    padding-top: 44px;
+    padding-bottom: 55px;
+    background: url('../assets/illustration-hero-left.svg') no-repeat left -170px center / contain,
+                url('../assets/illustration-hero-right.svg') no-repeat right -170px center / contain,
+                url('../assets/bg-hero-squiggle.svg') no-repeat center top 30px / 386px 268px;
+  }
+  .hero-img {
+    display: none;
+  }
+
+  .hero-content {
+    width: 457px;
+    margin: 0 auto
+    
+  }
+
+  .hero h1 {
+    width: 350px;
+  }
 }
