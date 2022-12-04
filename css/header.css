@@ -21,3 +21,11 @@ header {
     text-align: start;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin-top: 81px;
+    margin-bottom: 114px;
+  }
+
+}

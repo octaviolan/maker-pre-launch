@@ -42,7 +42,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     margin-bottom: 110px;
-    padding-top: 44px;
+    padding-top: 34px;
     padding-bottom: 55px;
     background: url('../assets/illustration-hero-left.svg') no-repeat left -170px center / contain,
                 url('../assets/illustration-hero-right.svg') no-repeat right -170px center / contain,
@@ -60,5 +60,30 @@
 
   .hero h1 {
     width: 350px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url('../assets/illustration-hero-left.svg') no-repeat left -55px center / contain,
+                url('../assets/illustration-hero-right.svg') no-repeat right -62px center / contain,
+                url('../assets/bg-hero-squiggle.svg') no-repeat center top / 545px 360px;
+  }
+  
+  .hero-content {
+    width: 540px;
+  }
+
+  .hero-content h1 {
+    font: var(--headline1);
+    width: auto;
+  }
+
+  .hero-content p {
+    margin: 24px auto 64px auto;
   }
 }
