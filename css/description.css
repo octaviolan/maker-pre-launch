@@ -78,3 +78,38 @@
     width: 340px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .description {
+    margin-bottom: 202px;
+  }
+  .description-content {
+    gap: 10px;
+    width: 573px;
+    height: 383px;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .description-item {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .description-item:nth-child(odd) {
+    justify-content: flex-start;
+  }
+
+  .description-item:nth-child(even) {
+    justify-content: flex-end;
+  }
+
+  .description-images {
+    align-self: flex-start;
+  }
+
+  .description-info {
+    text-align: start;
+    width: 255px;
+  }
+}

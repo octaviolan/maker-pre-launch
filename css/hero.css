@@ -68,6 +68,7 @@
 
   .hero {
     padding-top: 70px;
+    margin-bottom: 202px;
     padding-bottom: 70px;
     background: url('../assets/illustration-hero-left.svg') no-repeat left -55px center / contain,
                 url('../assets/illustration-hero-right.svg') no-repeat right -62px center / contain,
