@@ -84,10 +84,11 @@
     margin-bottom: 202px;
   }
   .description-content {
-    gap: 10px;
-    width: 573px;
+    width: 100%;
     height: 383px;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
     margin: 0;
   }
 
