@@ -72,3 +72,26 @@ input[type='email']::-webkit-input-placeholder {
   border: 2px solid var(--aqua);
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    height: 140px;
+    background-size: 1022px 140px;
+    background-position: left -240px center;
+  }
+  footer form {
+    width: 476px;
+    margin: 0 auto;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  input[type='email'] {
+    width: 320px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    width: 140px;
+    padding: 10px 18px;
+  }
+}
