@@ -5,6 +5,7 @@
 @import './hero.css';
 @import './description.css';
 @import './plans.css';
+@import './footer.css';
 
 :root {
   /* Colors */

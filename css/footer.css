@@ -1,0 +1,74 @@
+footer {
+  margin-bottom: 164px;
+  background: url('../assets/bg-footer-squiggle.svg') no-repeat center top / 584px 80px;
+}
+footer h2 {
+  width: 70%;
+  margin: 0 auto 31px auto;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--white);
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+input[type='email'] {
+  padding: 12px 18px;
+  border-radius: 24px;
+  background-color: var(--steel-blue);
+  border: 2px solid transparent;
+  outline: none;
+  color: var(--white);
+  font: var(--basefont);
+  font-weight: bold;
+}
+
+form p {
+  position: absolute;
+  color: rgba(255, 41, 101, 1);
+  left: 18px;
+  top: 40px;
+  font-size: 12px;
+  line-height: 25px;
+  display: none;
+}
+
+input[type='email']:invalid:not(:placeholder-shown) + p{
+  display: block;
+}
+
+
+
+
+input[type='email']:invalid:not(:placeholder-shown) {
+  border: 2px solid rgba(255, 41, 101, 1);
+}
+
+
+input[type='email']::-webkit-input-placeholder {
+  color: var(--grey);
+}
+
+.button {
+  padding: 10px 0;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 24px;
+  background-color: var(--aqua);
+  font: var(--basefont);
+  font-weight: bold;
+  color: var(--steel-blue);
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--bg-color);
+  border: 2px solid var(--aqua);
+}
+
